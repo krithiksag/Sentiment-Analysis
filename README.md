@@ -2,6 +2,13 @@
 ## Overview
 This project demonstrates sentiment analysis on Twitter data using the Naive Bayes algorithm from the NLTK library. The classifier predicts whether a given tweet has a positive or negative sentiment. The model is trained on the twitter_samples dataset provided by NLTK and evaluated using common classification metrics.
 
+## Live Demo
+
+You can access the deployed Streamlit app using the link below:
+
+[Click here to try the Sentiment Analysis App](https://sentiment-analysis-rb72ekvfvjqffq5lbjlqdj.streamlit.app/)
+
+
 ## Dataset
 The dataset used is the twitter_samples corpus from the NLTK library, which contains:
 
@@ -9,7 +16,6 @@ The dataset used is the twitter_samples corpus from the NLTK library, which cont
 
 5,000 negative tweets
 
-20,000 unlabeled tweets (not used in training)
 
 ## Preprocessing Steps
 To ensure clean and meaningful input to the model, the following preprocessing techniques were applied:
