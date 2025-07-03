@@ -42,7 +42,7 @@ Used WordNetLemmatizer to convert each word to its base form based on its POS ta
 
 Common words that do not contribute to sentiment (like “is”, “the”, “and”) were removed using NLTK’s stopwords list.
 
-###Punctuation Removal
+### Punctuation Removal
 
 Tokens that are purely punctuation were discarded.
 
