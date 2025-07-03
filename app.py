@@ -3,7 +3,7 @@ import pickle
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-
+nltk.download('punkt_tab',quiet=True)
 # Download NLTK resources silently
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
